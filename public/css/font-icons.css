@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'trx_demo_icons';
+  src: url('../fonts/trx_demo_icons.woff2') format('woff2'),
+       url('../fonts/trx_demo_icons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+[class^="trx_demo_icon-"], [class*=" trx_demo_icon-"] {
+  font-family: 'trx_demo_icons' !important;
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  line-height: 1;
+  text-decoration: none;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.trx_demo_icon-shopping-cart:before { content: "\e910"; }
+.trx_demo_icon-gallery:before { content: "\e905"; }
+.trx_demo_icon-browser:before { content: "\e902"; }
