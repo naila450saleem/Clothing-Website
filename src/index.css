@@ -27,6 +27,23 @@ body {
     color: var(--primary-color);
 }
 
+@keyframes taUnderStrips {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.ta-under-strips {
+  animation: taUnderStrips 1s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+
 
 
 
